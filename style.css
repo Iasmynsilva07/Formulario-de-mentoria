@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  right: 0%;
+  top: 0%;
+  background: #535971;
+  position: absolute;
+  z-index: -1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeeef0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 58px;
+}
+
+header h1 {
+  color: #FFF;
+  font-family: Staatliches;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 140px;
+}
+
+header p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+form {
+  width: 750px;
+  height: 1084px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px 20px 0px 0px;
+  background: #FFF;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 22px;
+  margin: 64px;
+  margin-bottom: 0;
+  
+  border: none;
+}
+
+ fieldset legend {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+fieldset input {
+  width: 300px;
+  height: 56px;
+  flex-shrink: 0;
+
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+.input-wrapper label {
+  width: 42.97px;
+  height: 24px;
+  flex-shrink: 0;
+
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.duo{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 16px 64px;
+  margin-bottom: 0;
+}
+
+.duo input{
+  width: 622px;
+  height: 56px;
+  flex-shrink: 0;
+
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+.duo legend{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+span{
+  width: 130.957px;
+  height: 20px;
+  flex-shrink: 0;
+
+  color: #C1BCCC;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;  
+}
+
+.uni legend{
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 32px;
+}
+
+.mentoria legend, .mentoria-two legend{
+  width: 139.141px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-left: 64px;
+  margin-bottom: 8px;
+
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+}
+
+.input-trio{
+  display: flex;
+  flex-direction: row;
+  margin-left: 64px;
+  gap: 32px;
+}
+
+.input-trio label{
+  display:flex;
+  flex-direction: row;
+  gap: 7px;
+} 
+
+.horas{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.horas input{
+  width: 140px;
+  height: 56px;
+  flex-shrink: 0;
+ 
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+.dia input{
+  width: 300px;
+  height: 56px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+ 
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+footer{
+  width: 750px;
+  height: 160px;
+  flex-shrink: 0;
+  margin-bottom: 417px;
+
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+}
+
+footer input{
+  display: flex;
+  width: 608px;
+  height: 55.652px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: none;
+  margin: 52px 71px;
+
+  border-radius: 20px;
+  background: #FF5374;
+
+  color: #FFF;
+  font-family: Staatliches;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+}
